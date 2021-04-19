@@ -5,37 +5,34 @@
 .table-wrapper {
   width: 100%;
   table-layout: fixed;
-}
-
-.q3 table {
   border-collapse: collapse;
   text-align: center;
 }
 
-.q3 table tr:nth-child(2n){
+.table-wrapper tr:nth-child(2n){
   background-color: #ecf1f2;
 }
 
-.q3 table th, table td:first-child{
+.table-wrapper th, .table-wrapper td:first-child{
   background-color: #2244aa;
 }
 
-.q3 table tbody tr:last-child {
+.table-wrapper tbody tr:last-child {
   border-top: 2px dashed #000;
 }
 
-.q3 table th,table td {
+.table-wrapper th,.table-wrapper td {
   border: 1px solid #dedede;
 }
 
-.q3 th {
+.table-wrapper th {
   padding: 10px 0;
   color: white;
   font-size: 18px;
   line-height: 26px;
 }
 
-.q3 td {
+.table-wrapper td {
   padding: 10px 0;
   font-size: 16px;
   line-height: 22px;
